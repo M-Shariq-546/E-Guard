@@ -4,9 +4,9 @@ import time
 
 
 def mail_it():
-    from_address = ""
-    from_address_password = ""
-    to_list = [""]
+    from_address = "Shariqhacker55@gmail.com"
+    from_address_password = "Shariq@555"
+    to_list = ["Shariqhacker55@gmail.com"]
     message = 'Message!'
     server = smtplib.SMTP('smtp.gmail.com:587')
     server.starttls()
